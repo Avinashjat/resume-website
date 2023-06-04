@@ -43,12 +43,24 @@ font-family: 'Raleway', sans-serif;
 .text{
     padding: 20px;
     font-size: 25px;
-    color: rgb(109, 108, 108);
+    color: rgb(137, 137, 137);
     text-align: left;
+    
+    font-family: 'Crimson Text', serif;
+    font-family: 'Inter', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Pacifico', cursive;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Wix Madefor Display', sans-serif;
+
+
+    /* font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif; */
 }
 
 .next{
@@ -57,14 +69,14 @@ font-family: 'Raleway', sans-serif;
     border-radius:17px ;
 }
 .resume{
-    color: rgb(36, 45, 88);
+    color: rgb(94, 103, 151);
     font-size: large;
     text-decoration: none;
-    background-color: rgb(178, 182, 194);
+    background-color: rgb(205, 217, 250);
     padding: 14px;
     border-radius: 12px;
     position: relative;
-    right: 498px;
+    right: 490px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -179,7 +191,10 @@ font-family: 'Rubik', sans-serif;
       left: 10px;
       border-radius: 10px;
 }
-
+ .repo:hover{
+    background-color: rgb(203, 219, 253);
+    color: rgb(111, 128, 193);
+ }
 
 
 
@@ -223,11 +238,72 @@ font-family: 'Rubik', sans-serif;
   }  
 
 
-/* .ex{
-    bottom: 40px;
+  /* contect section */
+ 
+#contect-head{
+    position: relative;
+    right: 17px;
+    bottom: 10px;
+    padding: 7px;
+} 
+
+
+.contect-box{   
+    position: relative; 
+    bottom: 750px;
+        padding-left: 200px;
+}
+
+.url{
+    padding: 30px;
+    cursor: pointer;
+    color: #727572;
+    font-size: 26px;
+}
+
+.contact-email{
+    text-decoration: none;
+    
+}
+
+.contact-email{
+    font-size: 30px;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-linkedIn{
+    padding: 50px;
+    
+}
+
+
+#contact-twitter{
+    height: 35px;
+    width: 35px;
+}
+
+/* .contact-twitter{
+    height: 35px !important;
+    width: 35px !important;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.contact-insta{
+    background-repeat: no-repeat;
+    background-size: 10px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    font-size: 0.9em;
 } */
 
-
+.photo{
+    height: 33px;
+    width: 33px;
+}
 
 
 
