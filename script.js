@@ -24,7 +24,6 @@
 
 
 
-
   /*
   copy email to clipboard onclick
  */
