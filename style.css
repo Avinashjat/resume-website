@@ -477,8 +477,9 @@ font-family: 'Rubik', sans-serif;
 /* project-section media query */
 
 #container{   
-    padding-left: 150px;
+    padding-left: 100px;
     width: 660px;
+   
     }
 
     .verticalLine {
@@ -489,14 +490,14 @@ font-family: 'Rubik', sans-serif;
         
         position: relative;
         bottom: 150px; 
-        right: 105.5%; 
+        right: 105.1%; 
     }
 /* education-section media query */
 
      
     
     #container1{
-        padding-left: 150px;
+        padding-left: 100px;
        padding-top: 60px;
        position: relative;
        bottom: 730px;
@@ -506,38 +507,47 @@ font-family: 'Rubik', sans-serif;
     }
     
     .verticalLine1{
-        height: 100px;
+        height: 76px;
         border-right: 1px solid #aaacaa;
          position: absolute;
          position: relative;
-         bottom: 174px;
-        right: 105.5%; 
+         bottom: 150px;
+        right: 105.1%; 
       }  
     
 /* 
 content-section media query */
     
     .url{
-        padding: 34px;
+         padding: 0px;
         cursor: pointer;
         color: #727572;
-        font-size: 37px;
+        font-size: 37px; */
     }
-    .contact-insta,.contact-twitter{
+    /* .contact-insta,.contact-twitter{
         padding: 43px;
-    }
+    } */
 
-    .contact-twitter{
+    /* .contact-twitter{
         padding: 25px;
-    }
+    } */
 
     .contect-box{   
-        /* position: relative; 
-        bottom: 750px; */
-        padding-left: 150px; 
+        
+         padding-left: 100px; 
         width: 684px;
         
-    }
+     }  
+
+     .main-url{
+        padding: 44px;
+     }
+
+     #email{
+        padding: 30px;
+        margin: 44px;
+    } 
+
     }
 
 
